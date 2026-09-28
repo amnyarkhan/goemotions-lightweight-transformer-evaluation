@@ -1,0 +1,111 @@
+ RAW OUTPUT
+================================================================================
+
+
+================================================================================
+FILE: outputs/results/reduced_model_label_level_statistical_tests.csv
+================================================================================
+
+STATUS: FOUND
+ROWS: 3
+COLUMNS: 15
+
+COLUMN NAMES:
+metric, number_of_labels, mean_difference_distilbert_minus_tfidf, median_difference_distilbert_minus_tfidf, std_difference, cohens_dz, labels_improved, labels_worsened, labels_tied, paired_t_statistic, paired_t_test_p_value, wilcoxon_statistic, wilcoxon_p_value, sign_test_p_value, note
+
+
+================================================================================
+FILE: outputs/results/reduced_model_bootstrap_mean_difference_ci.csv
+================================================================================
+
+STATUS: FOUND
+ROWS: 3
+COLUMNS: 6
+
+COLUMN NAMES:
+metric, mean_difference_distilbert_minus_tfidf, bootstrap_95_ci_lower, bootstrap_95_ci_upper, ci_excludes_zero, note
+
+
+================================================================================
+FILE: outputs/results/full_model_label_level_statistical_tests.csv
+================================================================================
+
+STATUS: FOUND
+ROWS: 3
+COLUMNS: 15
+
+COLUMN NAMES:
+metric, number_of_labels, mean_difference_distilbert_minus_tfidf, median_difference_distilbert_minus_tfidf, std_difference, cohens_dz, labels_improved, labels_worsened, labels_tied, paired_t_statistic, paired_t_test_p_value, wilcoxon_statistic, wilcoxon_p_value, sign_test_p_value, note
+
+
+================================================================================
+FILE: outputs/results/full_model_bootstrap_mean_difference_ci.csv
+================================================================================
+
+STATUS: FOUND
+ROWS: 3
+COLUMNS: 6
+
+COLUMN NAMES:
+metric, mean_difference_distilbert_minus_tfidf, bootstrap_95_ci_lower, bootstrap_95_ci_upper, ci_excludes_zero, note
+
+
+================================================================================
+FILE: outputs/results/computational_cost_summary.csv
+================================================================================
+
+STATUS: FOUND
+ROWS: 4
+COLUMNS: 16
+
+COLUMN NAMES:
+model, label_setting, prefix, training_time_seconds, training_time_minutes, test_inference_time_seconds, inference_ms_per_comment, model_size_mb, device_or_hardware, macro_f1, micro_f1, exact_match_accuracy, hamming_loss, metrics_file_found, experiment_info_found, model_path_found
+
+
+================================================================================
+FILE: outputs/results/reduced_per_label_baseline_vs_distilbert_comparison.csv
+================================================================================
+
+STATUS: FOUND
+ROWS: 11
+COLUMNS: 14
+
+COLUMN NAMES:
+label, support_tfidf, precision_tfidf, recall_tfidf, f1_tfidf, support_distilbert, precision_distilbert, recall_distilbert, f1_distilbert, support, precision_difference, recall_difference, f1_difference, relative_f1_change_percent
+
+
+================================================================================
+FILE: outputs/results/full_per_label_baseline_vs_distilbert_comparison.csv
+================================================================================
+
+STATUS: FOUND
+ROWS: 28
+COLUMNS: 14
+
+COLUMN NAMES:
+label, support_tfidf, precision_tfidf, recall_tfidf, f1_tfidf, support_distilbert, precision_distilbert, recall_distilbert, f1_distilbert, support, precision_difference, recall_difference, f1_difference, relative_f1_change_percent
+
+
+================================================================================
+FILE: outputs/results/reduced_support_metric_correlations.csv
+================================================================================
+
+STATUS: FOUND
+ROWS: 7
+COLUMNS: 5
+
+COLUMN NAMES:
+model, metric, spearman_correlation_support_vs_metric, p_value, note
+
+
+================================================================================
+FILE: outputs/results/full_support_metric_correlations.csv
+================================================================================
+
+STATUS: FOUND
+ROWS: 7
+COLUMNS: 5
+
+COLUMN NAMES:
+model, metric, spearman_correlation_support_vs_metric, p_value, note
+

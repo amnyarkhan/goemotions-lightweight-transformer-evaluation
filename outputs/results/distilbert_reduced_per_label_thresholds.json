@@ -1,0 +1,13 @@
+{
+    "admiration": 0.35000000000000003,
+    "approval": 0.15000000000000002,
+    "gratitude": 0.45,
+    "annoyance": 0.35000000000000003,
+    "amusement": 0.2,
+    "curiosity": 0.25,
+    "love": 0.5,
+    "disapproval": 0.25,
+    "optimism": 0.25,
+    "anger": 0.25,
+    "neutral": 0.2
+}

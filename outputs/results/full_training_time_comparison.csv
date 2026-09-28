@@ -1,0 +1,3 @@
+model,training_time_seconds,training_time_minutes
+TF-IDF Logistic Regression,3.7682249546051025,0.06280374924341837
+DistilBERT,8909.05079817772,148.48417996962866

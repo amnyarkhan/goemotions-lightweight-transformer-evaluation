@@ -1,0 +1,8 @@
+model,metric,spearman_correlation_support_vs_metric,p_value,note
+TF-IDF Logistic Regression,F1,0.05454545454545456,0.873446577523315,Positive values suggest higher-support labels tend to perform better
+TF-IDF Logistic Regression,Precision,-0.018181818181818184,0.9576852410216188,Positive values suggest higher-support labels tend to perform better
+TF-IDF Logistic Regression,Recall,0.24545454545454545,0.46692236698201633,Positive values suggest higher-support labels tend to perform better
+DistilBERT,F1,0.08181818181818183,0.810990394300046,Positive values suggest higher-support labels tend to perform better
+DistilBERT,Precision,0.08181818181818183,0.810990394300046,Positive values suggest higher-support labels tend to perform better
+DistilBERT,Recall,0.17272727272727276,0.611542384851237,Positive values suggest higher-support labels tend to perform better
+Difference: DistilBERT minus TF-IDF,F1 difference,0.23636363636363636,0.48409116222539667,Correlation between support and DistilBERT F1 gain

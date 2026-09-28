@@ -1,0 +1,4 @@
+config,val_macro_f1_threshold_0_5,val_micro_f1_threshold_0_5,training_time_seconds,max_features,ngram_max,c_value,class_weight
+tfidf_lr_unigram_30k,0.24096796770408188,0.4162695334146071,1.8615167140960693,30000,1,1.0,None
+tfidf_lr_unigram_bigram_40k,0.26142441266861016,0.4261040664626148,2.836721897125244,40000,2,2.0,None
+tfidf_lr_unigram_bigram_40k_balanced,0.46172963928691335,0.5163627120798119,3.7803080081939697,40000,2,2.0,balanced

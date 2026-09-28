@@ -1,0 +1,4 @@
+metric,mean_difference_distilbert_minus_tfidf,bootstrap_95_ci_lower,bootstrap_95_ci_upper,ci_excludes_zero,note
+F1,0.072357910943102,0.025933212571492212,0.1081026641677822,True,Bootstrap interval over paired label-level differences
+Precision,0.10119887288936338,0.04656251386490715,0.15541238329130594,True,Bootstrap interval over paired label-level differences
+Recall,0.04608776005814795,-0.007814838687783819,0.09126366939447736,False,Bootstrap interval over paired label-level differences

@@ -1,0 +1,38 @@
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# macOS files
+.DS_Store
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Secrets and local settings
+.env
+
+# Large trained model files
+# Supervisor can reproduce these by running the scripts
+/models/
+
+# Hugging Face / PyTorch cache
+.cache/
+huggingface/
+wandb/
+
+# Raw and processed data
+# Dataset can be downloaded using README curl commands
+data/raw/splits/*.tsv
+data/raw/splits/emotions.txt
+data/processed/*.csv
+
+# Logs and temporary files
+*.log
+*.tmp

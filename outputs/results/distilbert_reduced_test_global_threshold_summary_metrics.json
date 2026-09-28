@@ -1,0 +1,10 @@
+{
+    "macro_f1": 0.607005182163731,
+    "micro_f1": 0.6337764463583598,
+    "macro_precision": 0.5529808980565059,
+    "micro_precision": 0.5707300623840836,
+    "macro_recall": 0.6766637169355944,
+    "micro_recall": 0.7124815828246684,
+    "hamming_loss": 0.06553093120257299,
+    "exact_match_accuracy": 0.5058043117744611
+}

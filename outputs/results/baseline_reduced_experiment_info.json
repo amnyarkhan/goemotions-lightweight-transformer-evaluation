@@ -1,0 +1,32 @@
+{
+    "label_mode": "reduced",
+    "top_k": 10,
+    "number_of_labels": 11,
+    "labels": [
+        "admiration",
+        "approval",
+        "gratitude",
+        "annoyance",
+        "amusement",
+        "curiosity",
+        "love",
+        "disapproval",
+        "optimism",
+        "anger",
+        "neutral"
+    ],
+    "best_config": {
+        "name": "tfidf_lr_unigram_bigram_40k_balanced",
+        "max_features": 40000,
+        "ngram_max": 2,
+        "c_value": 2.0,
+        "class_weight": "balanced"
+    },
+    "best_global_threshold": 0.55,
+    "random_state": 42,
+    "train_examples": 43410,
+    "validation_examples": 5426,
+    "test_examples": 5427,
+    "model_type": "TF-IDF + One-vs-Rest Logistic Regression",
+    "threshold_tuning": "Validation set only"
+}

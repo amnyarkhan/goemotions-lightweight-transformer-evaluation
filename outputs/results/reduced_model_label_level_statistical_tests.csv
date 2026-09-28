@@ -1,0 +1,4 @@
+metric,number_of_labels,mean_difference_distilbert_minus_tfidf,median_difference_distilbert_minus_tfidf,std_difference,cohens_dz,labels_improved,labels_worsened,labels_tied,paired_t_statistic,paired_t_test_p_value,wilcoxon_statistic,wilcoxon_p_value,sign_test_p_value,note
+F1,11,0.06026095167166452,0.05355531692713639,0.043782526862262076,1.3763698897791545,11,0,0,4.564902497140273,0.0010343245222745293,0.0,0.0009765625,0.0009765625,Paired label-level test across reduced emotion labels
+Precision,11,0.06820668490103325,0.056432786320368716,0.05930115012303041,1.1501747396049955,10,1,0,3.814698054614495,0.003402944059203878,2.0,0.0029296875,0.01171875,Paired label-level test across reduced emotion labels
+Recall,11,0.03889957630690876,0.032258064516129004,0.12350480859518993,0.3149640629330424,8,3,0,1.044617619194787,0.32079392953694646,15.0,0.123046875,0.2265625,Paired label-level test across reduced emotion labels
