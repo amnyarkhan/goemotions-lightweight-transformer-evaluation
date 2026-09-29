@@ -34,20 +34,20 @@ The implementation supports:
 The original implementation was developed using the following project root:
 
 ```bash
-~/Desktop/goemotions-dissertation
+~/Desktop/goemotions-lightweight-transformer-evaluation
 ```
 
 If the full project folder is provided directly, place it on the Desktop or another preferred location and enter the folder:
 
 ```bash
-cd ~/Desktop/goemotions-dissertation
+cd ~/Desktop/goemotions-lightweight-transformer-evaluation
 ```
 
 If using the GitHub repository instead, clone the repository and enter it:
 
 ```bash
-git clone <repository-url> goemotions-dissertation
-cd goemotions-dissertation
+git clone https://github.com/amnyarkhan/goemotions-lightweight-transformer-evaluation.git
+cd goemotions-lightweight-transformer-evaluation
 ```
 
 All scripts should be run from this project root unless stated otherwise. The repository/folder should already contain the source code, `requirements.txt`, and the expected directory structure.
@@ -59,7 +59,7 @@ All scripts should be run from this project root unless stated otherwise. The re
 The uploaded project folder or GitHub repository should already follow the structure below:
 
 ```text
-goemotions-dissertation/
+goemotions-lightweight-transformer-evaluation/
 │
 ├── data/
 │   ├── raw/
