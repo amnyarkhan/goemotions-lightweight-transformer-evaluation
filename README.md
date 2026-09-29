@@ -106,7 +106,7 @@ mkdir -p models/baseline
 mkdir -p models/distilbert
 mkdir -p outputs/figures
 mkdir -p outputs/results
-mkdir -p outputs/appendix_exports
+mkdir -p outputs/Summary Tables
 ```
 
 The `src/` folder and `requirements.txt` should already be present in the submitted folder or GitHub repository.
