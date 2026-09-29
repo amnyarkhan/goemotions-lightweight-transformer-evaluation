@@ -63,17 +63,9 @@ goemotions-lightweight-transformer-evaluation/
 │
 ├── data/
 │   ├── raw/
-│   │   └── splits/
-│   │       ├── train.tsv
-│   │       ├── dev.tsv
-│   │       ├── test.tsv
-│   │       └── emotions.txt
-│   │
-│   └── processed/
-│       ├── train.csv
-│       ├── val.csv
-│       ├── test.csv
-│       └── all_splits.csv
+│   │   |-- goemotions_1.csv
+        |-- goemotions_2.csv
+        |- goemotions_3.csv  
 │
 ├── src/
 │   ├── data/
